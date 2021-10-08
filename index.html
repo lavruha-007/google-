@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar flex test</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calendar">
+            <div class="calendar--head">
+                <button class="btn--calendar btn--previous">
+                    <svg viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L19 19L1 37" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>  
+                </button>
+                <div class="calendar--label">March 2018</div>      
+                <button class="btn--calendar btn--next">
+                    <svg viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L19 19L1 37" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        <hr/>
+            <div class="calendar--days-and-weeks">
+                <div class="calendar--days-of-week">
+                    <span class="calendar--day-of-week">M</span>
+                    <span class="calendar--day-of-week">T</span>
+                    <span class="calendar--day-of-week">W</span>
+                    <span class="calendar--day-of-week">T</span>
+                    <span class="calendar--day-of-week">F</span>
+                    <span class="calendar--day-of-week">Sat</span>
+                    <span class="calendar--day-of-week">Sun</span>
+                </div>
+                <div class="calendar--days">
+                    <span class="calendar--day">1</span>
+                    <span class="calendar--day">2</span>
+                    <span class="calendar--day">3</span>
+                    <span class="calendar--day">4</span>
+                    <span class="calendar--day">5</span>
+                    <span class="calendar--day">6</span>
+                    <span class="calendar--day">7</span>
+                    <span class="calendar--day">8</span>
+                    <span class="calendar--day">9</span>
+                    <span class="calendar--day">10</span>
+                    <span class="calendar--day">11</span>
+                    <span class="calendar--day">12</span>
+                    <span class="calendar--day">13</span>
+                    <span class="calendar--day">14</span>
+                    <span class="calendar--day calendar--day-selected">15</span>
+                    <span class="calendar--day calendar--day-selected">16</span>
+                    <span class="calendar--day">17</span>
+                    <span class="calendar--day">18</span>
+                    <span class="calendar--day">19</span>
+                    <span class="calendar--day">20</span>
+                    <span class="calendar--day">21</span>
+                    <span class="calendar--day">22</span>
+                    <span class="calendar--day">23</span>
+                    <span class="calendar--day">24</span>
+                    <span class="calendar--day">25</span>
+                    <span class="calendar--day">26</span>
+                    <span class="calendar--day">27</span>
+                    <span class="calendar--day">28</span>
+                    <span class="calendar--day">29</span>
+                    <span class="calendar--day">30</span>
+                    <span class="calendar--day">31</span>
+                    <span class="calendar--day calendar--day-muted">1</span>
+                    <span class="calendar--day calendar--day-muted">2</span>
+                    <span class="calendar--day calendar--day-muted">3</span>
+            </div>
+            <hr />
+            <div class="calendar__footer">
+                <h2>Your categories</h2>
+                <div class="btn__calendar">
+                    <button class="btn__calendar btn__finance">FINANCE</button>
+                    <button class="btn__calendar btn__management">MANAGEMENT</button>
+                    <button class="btn__calendar btn__design">DESIGN</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
